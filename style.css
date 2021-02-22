@@ -2,6 +2,23 @@ body{
     margin: 5%;
 }
 
+header{
+    display: flex;
+    align-items : flex-end;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex: 1;
+    padding-bottom: 1em;
+}
+
+nav a{
+    padding: 0 1em;
+}
+
 a{
     text-decoration: none;
     color: #000;
@@ -11,13 +28,9 @@ a{
     display: inline-flex;
 }
 
-nav{
-    justify-content: center;
-}
-
 h2 img{
-    height: 24px;
-    margin-right: 5px;
+    height: 1em;
+    margin-right: 0.5em;
 }
 
 figure{
@@ -32,15 +45,29 @@ figure img{
 }
 
 figcaption{
+    display: flex;
+    justify-content: space-between;
     background-color: rgba(9, 119, 9, 0.5);
     position: absolute;
+    color:#fff;
     bottom: 0;
     width: 100%;
+    text-align: center;
+}
+
+figcaption a{
+    padding: 0.25em;
+    margin-right: 0.25em;
+    background-color: #76b900;
+    color:#fff;
+    border-radius: 0.25em;
 }
 
 main{
     margin-top: 2em;
+    border-bottom: #76b900 2px solid;
 }
+
 main section{
     flex :7;
     padding-right: 1em;
@@ -55,11 +82,11 @@ aside{
     color: #fff;
     display: flex;
     flex-direction: column;
-    padding: 0.25em 1em;
+    padding: 1em;
 }
 
 aside img{
-    width: 50%;
+    width: 40%;
     margin : 1em 25%;
 }
 
@@ -75,13 +102,46 @@ aside h3 {
 
 i{
     font-size: 3em;
-    margin: auto  0.1em;
+    margin: auto  0.2em;
 }
 
-footer img{
-    width : 9em;
+#triangle{
+    display: flex;
+    justify-content: center;
 }
 
-footer section {
-    margin : auto 2em;
+#triangle img{
+    width: 2em;
+}
+
+#galery img{
+    width : 20%;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+#partners img{
+    width : 30%;
+    margin : 0 0.5em;
+}
+
+footer #form{
+    flex:3;
+}
+
+footer #galery{
+    flex: 3;
+}
+
+footer #partners{
+    flex : 2;
+}
+input{
+    margin: 0.25em;
+}
+
+#button{
+    background-color: #76b900;
+    padding: 0.5em 0.75em;
+    margin-left: 0;
 }
