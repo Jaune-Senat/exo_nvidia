@@ -1,0 +1,87 @@
+body{
+    margin: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.infline{
+    display: inline-flex;
+}
+
+nav{
+    justify-content: center;
+}
+
+h2 img{
+    height: 24px;
+    margin-right: 5px;
+}
+
+figure{
+    margin: auto;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+figure img{
+    width: 100%;
+}
+
+figcaption{
+    background-color: rgba(9, 119, 9, 0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+main{
+    margin-top: 2em;
+}
+main section{
+    flex :7;
+    padding-right: 1em;
+}
+
+main aside{
+    flex :3;
+}
+
+aside{
+    background-color: #76b900;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0.25em 1em;
+}
+
+aside img{
+    width: 50%;
+    margin : 1em 25%;
+}
+
+aside h3 {
+    margin : 0.5em 35%
+}
+
+#social{
+    flex-direction: row;
+    margin: auto;
+    align-content: center;
+}
+
+i{
+    font-size: 3em;
+    margin: auto  0.1em;
+}
+
+footer img{
+    width : 9em;
+}
+
+footer section {
+    margin : auto 2em;
+}
