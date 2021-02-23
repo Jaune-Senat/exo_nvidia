@@ -170,13 +170,9 @@ input{
 }
 
 @media screen and (max-width : 1000px){
-    i{
-        font-size: 1,25em;
-    }
     main section{
         flex :3;
     }
-    
     main aside{
         flex :2;
     }
